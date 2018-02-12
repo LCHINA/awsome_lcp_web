@@ -3,7 +3,7 @@
 {% block title %} 日志 {% endblock %}
 
 {% block content %}
-<div class="uk-flex uk-flex-middle" uk-grid>
+<div class="uk-flex" uk-grid>
 <div class="uk-width-3-4@m">
     {% for blog in blogs %}
     <article class="uk-article">
@@ -19,7 +19,7 @@
     <div class="uk-panel uk-panel-header">
         <h3 class="uk-panel-title">友情链接</h3>
         <ul class="uk-list uk-list-line">
-            <li><i class="uk-icon-thumbs-o-up"></i><a href="#" target="_blank"></a>编程</li>
+            <li><a uk-icon="link" href="#" target="_blank"></a>编程</li>
             <li><i class="uk-icon-thumbs-o-up"></i><a href="#" target="_blank"></a>读书</li>
             <li><i class="uk-icon-thumbs-o-up"></i><a href="#" target="_blank"></a>Python</li>
             <li><i class="uk-icon-thumbs-o-up"></i><a href="#" target="_blank"></a>Git教学</li>
